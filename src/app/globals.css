@@ -4,6 +4,12 @@
     --softBg: #f0f0f0;
     --softTextColor: #626262;
 }
+.light {
+    --bg: #0f172a;
+    --textColor: #ddd;
+    --softBg: #1f273a;
+    --softTextColor: #a6a6a6;
+}
 * {
     padding: 0;
     margin: 0;
@@ -17,6 +23,7 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
 .container {
     min-height: 100vh;
     background-color: var(--bg);
@@ -26,7 +33,7 @@ a {
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
     padding-left: 80px;
     padding-right: 80px;
 }
