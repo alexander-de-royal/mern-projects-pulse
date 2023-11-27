@@ -6,15 +6,33 @@
 }
 .social {
     display: flex;
+    justify-content: flex-start;
     flex: 1;
     gap: 10px;
 }
 .logo {
-    flex: 1;
-    padding-left: 150px;
+    flex: 0.1;
 }
+
 .links {
     display: flex;
+    justify-content: flex-end;
     gap: 20px;
     flex: 1;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1000px){
+    .link {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+
 }
