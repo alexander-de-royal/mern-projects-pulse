@@ -36,7 +36,7 @@
     padding: 2px 0;
 }
 .link:hover {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid red;
     width: max-content;
     padding: 2px 0;
 }

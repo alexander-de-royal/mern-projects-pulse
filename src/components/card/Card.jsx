@@ -14,12 +14,13 @@ export const Card = () => {
                     <span className={styles.date}>11.02.2023 - </span>
                     <span className={styles.category}>CULTURE</span>
                 </div>
-                <Link href="/">
-                    <h1>The effect of fatty foods in adult.</h1>
-                </Link>
+
+                <Link href="/"><h1>The effect of fatty foods in adult.</h1></Link>
+
                 <p className={styles.desc}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio dolor nemo pariatur quidem rerum, voluptatem voluptatum. Delectus excepturi, libero?
                 </p>
+
                 <Link href="/" className={styles.link}>Read More</Link>
             </div>
         </div>
