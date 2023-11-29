@@ -7,7 +7,7 @@ export const Card = () => {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
+                <Image src="/p1.jpeg" alt="" className={styles.image} width={480} height={300}/>
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.detail}>
