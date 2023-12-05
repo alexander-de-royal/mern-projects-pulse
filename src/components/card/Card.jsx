@@ -22,6 +22,7 @@ export const Card = () => {
                 </p>
 
                 <Link href="/" className={styles.link}>Read More</Link>
+
             </div>
         </div>
     )

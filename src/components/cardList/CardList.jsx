@@ -16,6 +16,7 @@ export const CardList = () => {
                         <Card/>
                         <Card/>
                         <Card/>
+                        <Pagination/>
                     </div>
             </div>
 
@@ -159,6 +160,7 @@ export const CardList = () => {
                 </div>
             </div>
         </div>
+
         </div>
     )
 }
