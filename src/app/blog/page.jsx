@@ -11,9 +11,9 @@ const BlogPage = () => {
             <h1 className={styles.title}>Style Blog</h1>
             <div className={styles.content}></div>
             <div>
-                <CategoryList/>
-                <CardList/>
-                <Card/>
+                {/*<CategoryList/>*/}
+                {/*<CardList/>*/}
+                {/*<Card/>*/}
                 {/*<Menu/>*/}
             </div>
         </div>

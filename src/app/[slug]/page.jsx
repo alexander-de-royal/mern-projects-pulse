@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./singlePage.module.css";
 import {Menu} from "@/components/Menu/Menu";
 import Image from "next/image";
+import Comments from "@/components/comments/Comments";
 
 const SinglePage = () => {
     return (
@@ -29,15 +30,15 @@ const SinglePage = () => {
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi, aspernatur commodi consequatur cumque cupiditate doloremque dolorum eaque, facilis incidunt inventore ipsa magni nihil officia pariatur provident quia quis quo quos recusandae reprehenderit saepe sapiente similique unde veritatis vero!
                         </p>
-                        <h5>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi, aspernatur commodi consequatur cumque cupiditate doloremque dolorum eaque, facilis incidunt inventore ipsa magni nihil officia pariatur provident quia quis quo quos recusandae reprehenderit saepe sapiente similique unde veritatis vero!
-                        </h5>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi, aspernatur commodi consequatur cumque cupiditate doloremque dolorum eaque, facilis incidunt inventore ipsa magni nihil officia pariatur provident quia quis quo quos recusandae reprehenderit saepe sapiente similique unde veritatis vero!
                         </p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi, aspernatur commodi consequatur cumque cupiditate doloremque dolorum eaque, facilis incidunt inventore ipsa magni nihil officia pariatur provident quia quis quo quos recusandae reprehenderit saepe sapiente similique unde veritatis vero!
                         </p>
+                    </div>
+                    <div className={styles.comment}>
+                        <Comments/>
                     </div>
                 </div>
 
