@@ -8,7 +8,7 @@ export const AuthLinks = () => {
 
     const [open, setOpen] = useState(false);
 
-    const status = "notauthenticated";
+    const status = "authenticated";
 
     return (
         <>
