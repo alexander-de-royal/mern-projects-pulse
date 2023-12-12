@@ -8,7 +8,7 @@ import {ThemeContext} from "@/context/ThemeContext";
 export const ThemeToggle = () => {
 
     const {theme, toggle} = useContext(ThemeContext)
-    console.log(theme)
+  
 
     return (
         <div className={styles.container} onClick={toggle}>
